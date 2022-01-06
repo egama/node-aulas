@@ -9,7 +9,7 @@ app.get('/', (request, response) => {
 app.get('/produtos', (request, response) => {
     const produtos = [
         { id: 100, descricao: "Monitor", grupo: 'eletronicos' },
-        { id: 24, descricao: "Fone", grupo: 'eletronicos' },
+        { id: 24, descricao: "Fones", grupo: 'eletronicos' },
         { id: 166, descricao: "Notebook", grupo: 'eletronicos' },
         { id: 45, descricao: "Geladeira", grupo: 'eletrodomesticos' }
     ];
